@@ -3,7 +3,7 @@
     <HeaderShop/>
     <!-- karena tidak menggunakan ke halaman yang berbeda -->
         <!-- Breadcrumb Section Begin -->
-    <div class="breacrumb-section">
+    <div class="breacrumb-section text-left">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -18,14 +18,14 @@
     <!-- Breadcrumb Section Begin -->
 
     <!-- Product Shop Section Begin -->
-    <section class="product-shop spad page-details">
+    <section class="product-shop spad page-details text-left">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="product-pic-zoom">
-                                <img class="product-big-img" src="img/ck-1.jpg" alt="" />
+                                <img class="product-big-img" :src="gambar_default" alt="" />
                             </div>
                             <div class="product-thumbs">
                                 <carousel :autoplay="true" :loop="true" :data="false" :nav="false" class="product-thumbs-track ps-slider">
@@ -94,6 +94,11 @@ export default {
     HeaderShop,
     FooterShop,
     carousel
+  },
+  data(){
+    return{
+      gambar_default: "img/ck-1.jpg"
+    }
   }
 };
 </script>
