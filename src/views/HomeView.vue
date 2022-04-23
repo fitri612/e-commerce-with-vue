@@ -5,6 +5,7 @@
     <WomenShop/>
     <InstaShop/>
     <PartnerShop/>
+    <FooterShop/>
 
   </div>
 </template>
@@ -16,6 +17,7 @@ import HeroShop from '@/components/HeroShop.vue'
 import WomenShop from '@/components/WomenShop.vue'
 import InstaShop from '@/components/InstaShop.vue'
 import PartnerShop from '@/components/PartnerShop.vue'
+import FooterShop from '@/components/FooterShop.vue'
 
 export default {
   name: 'HomeView',
@@ -24,7 +26,8 @@ export default {
     HeroShop,
     WomenShop,
     InstaShop,
-    PartnerShop
+    PartnerShop,
+    FooterShop
   }
 };
 </script>
