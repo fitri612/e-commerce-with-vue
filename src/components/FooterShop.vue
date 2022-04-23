@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="footer-left">
+                    <div class="footer-left text-left">
                         <div class="footer-logo">
                             <a href="#"><img src="img/logo_website_shayna_white.png" alt="" /></a>
                         </div>
