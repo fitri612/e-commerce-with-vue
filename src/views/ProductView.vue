@@ -97,7 +97,14 @@ export default {
   },
   data(){
     return{
-      gambar_default: "img/ck-1.jpg"
+      gambar_default: "img/ck-1.jpg",
+      thumbs : [
+            "img: img/ck-1.jpg",
+            "img: img/ck-2.jpg",
+            "img: img/ck-3.jpg",
+            "img: img/ck-4.jpg"
+      ]
+      
     }
   }
 };
